@@ -47,7 +47,7 @@ void loop()
   gasValue = analogRead(gasInput);
   //gas sensor debug
   Serial.print("PPM: ");
-  Serial.println(gasInput);
+  Serial.println(gasValue);
   
   //top LED for temperatures reading
   lcd.clear();
